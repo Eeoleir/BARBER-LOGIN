@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
+
+/*----------options-----------*/
+.row {
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+/* contact with map section */
+.contact-map{
+    width: 100%;
+    margin-top: 7%;
+    align-items: center;
+    text-align: center;
+}
+.contact-map h3{
+    color: #9C9C9C;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400px;
+}
+.contact-map .map{
+    margin-top: 3%;
+    width: 100%;
+}
+
+
+/* CONTACT INFO DESIGNS */
+.contact-us{
+    width: 100%;
+    margin-top: 10%;
+}
+
+/* LEFT SIDE OF MY CONTACT INFORMATION */
+.left{
+    flex-basis: 50%;
+    margin: 2% 0 0 15%;
+
+}
+.left div{
+    display: flex;
+    margin-bottom: 5%;
+}
+.left div .fa-solid{
+    font-size: 30px;
+    color: #CE2A44;
+    margin-right: 5%;
+}
+.left div h3{
+    font-size: 18px;
+    margin-bottom: 5%;
+    color: #9C9C9C;
+    font-weight: 800;
+}
+.left div p{
+    color: #9C9C9C;
+    font-family: Poppins;
+}
+
+/* RIGHT SIDE OF MY CONTACT INFORMATION */
+.right{
+    flex-basis: 50%;
+    margin: 0 20% 10% 0;
+}
+.right input, .right textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 17px;
+    border: 1px solid #ccc;
+}
+.right button{
+    margin-left: 17px;
+}
+

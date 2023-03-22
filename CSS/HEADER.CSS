@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
+/* ALL SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("./BG.png");
+    background-size: cover;
+    
+}
+/* HEADER */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 5%;
+}
+.nav-links {
+    flex: 1;
+    text-align: center;
+    margin-left: -5%;
+}
+
+.nav-links ul li {
+    margin: 28px 40px ;
+    display: inline-block;
+}
+
+.nav-links ul li a{
+    color: #FFFFFF;
+    font-family: IBM Plex Mono;
+    letter-spacing: .2em;
+    text-decoration: none;
+    font-size: 18px;
+}
+.contact{
+    margin-right: 5%;
+}
+
+.book-btn {
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: IBM Plex Mono;
+    letter-spacing: .2em;
+    color: #000000;
+    border: 1px solid #fff;
+    padding: 12px 24px;
+    position: relative;
+    background: #FBB034;
+    cursor: pointer;
+    font-weight: bold;
+}
