@@ -175,7 +175,7 @@ html {
 .container-styles {
     width: 100%;
     margin-top: 2%;
-    margin-bottom: 30%;
+    margin-bottom: 15%;
     align-items: center;
     text-align: center;
     overflow: hidden;
@@ -210,8 +210,8 @@ html {
 
 .container-rate .edit{
     position: relative;
-    left: 115px;
-    bottom: 60px;
+    left: 1px;
+    bottom: 1px;
     font-size: 12px;
     color: #ffffff;
     font-weight: 500;

@@ -17,7 +17,7 @@
     <!-- ICONS IN MY SITE -->
     <script src="https://kit.fontawesome.com/ae0bd0171a.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <title>HOME PAGE</title>
+    <title>ABOUT PAGE</title>
 </head>
 
 
@@ -53,7 +53,7 @@
   <!-- NAVIGATION FOR OPENING HOURS and RATINGS -->
   <section class="buttons">
         <a class="OpeningHours-btn" href="#openingHours">Opening Hours</a>
-        <a class="Ratings-btn" href="#container-styles">Ratings</a>
+        <a class="Ratings-btn" href="#ratings">Ratings</a>
 
   </section>
 
@@ -158,7 +158,7 @@
   const widget = document.querySelector(".star-widget");
   const editBtn = document.querySelector(".edit");
 
-  btn.onclick = () => {
+    btn.onclick = () => {
     [widget.style.display, post.style.display] = ["none", "block"];
     editBtn.onclick = () => [widget.style.display, post.style.display] = ["block", "none"];
     return false;
@@ -171,19 +171,6 @@
 </script>
     
     </section>
-    <script>
-      const links = document.querySelectorAll('a');
   
-    links.forEach(link => {
-    link.addEventListener('click', e => {
-      e.preventDefault();
-      const href = link.getAttribute('href');
-      document.body.classList.add('fade-out');
-      setTimeout(() => {
-      window.location.href = href;
-      }, 500);
-  });
-  });
-
 </body>
 </html>
