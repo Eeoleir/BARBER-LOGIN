@@ -78,6 +78,7 @@ html {
 .about-text {
     width: 550px;
     color: #FFFFFF;
+    text-indent: 10%;
     text-align: justify;
 }
 
