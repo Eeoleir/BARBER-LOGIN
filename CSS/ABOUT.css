@@ -96,6 +96,18 @@ body.fade-out {
     justify-content: space-around;
 }
 
+.us img {
+    transition: 0.5s;
+    animation: fadeOut 1.5s infinite alternate;
+    opacity: 1;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+    }
+
+
 
 /*<-----------for opening hours---------->*/
 
