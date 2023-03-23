@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
 
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+body.fade-out {
+    opacity: 0;
+}
+
 /*----------options-----------*/
 .row {
     margin: 1%;
@@ -15,13 +27,12 @@
 /* contact with map section */
 .contact-map{
     width: 100%;
-    margin-top: 3%;
+    margin-top: 7%;
     align-items: center;
     text-align: center;
 }
 .contact-map h3{
     color: #FFFFFF;
-    font-family: Poppins;
     font-size: 36px;
     font-weight: 400px;
 }
@@ -40,7 +51,7 @@
 /* LEFT SIDE OF MY CONTACT INFORMATION */
 .left{
     flex-basis: 50%;
-    margin: 2% 0 0 14%;
+    margin: 2% 0 0 15%;
 
 }
 .left div{
@@ -66,7 +77,7 @@
 /* RIGHT SIDE OF MY CONTACT INFORMATION */
 .right{
     flex-basis: 50%;
-    margin: 0 17% 3% 0;
+    margin: 0 20% 10% 0;
 }
 .right input, .right textarea{
     width: 100%;
@@ -75,6 +86,29 @@
     border: 1px solid #ccc;
 }
 .right button{
-    margin: 5% 0 0 3%;
+    margin-left: 17px;
+}
+
+.book-btn {
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: .2em;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    position: relative;
+    background: transparent;
+    border: 1px solid #ffffff;
+    margin-bottom: 5%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.book-btn:hover {
+    cursor: pointer;
+    color: black;
+    background: #FBB034;
+    border: 1px solid #ffffff;
+    transition: 1s ease;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
 }
 

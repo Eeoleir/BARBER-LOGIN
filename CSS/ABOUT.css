@@ -1,13 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
+
+/*<-----------Settings for all---------->*/
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-}
-
+}git
 html {
     scroll-behavior: smooth;
 }
+body {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+body.fade-out {
+    opacity: 0;
+}
 
+/*<-----------for buttons---------->*/
 .buttons {
     width: 100%;
     padding: 100px 0;
@@ -28,7 +38,16 @@ html {
     
 }
 
-.Reviews-btn {
+.OpeningHours-btn:hover {
+    cursor: pointer;
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid #ffffff;
+    transition: 1s ease;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+}
+
+.Ratings-btn {
     border-radius: 5px;
     text-decoration: none;
     letter-spacing: .2em;
@@ -41,6 +60,17 @@ html {
     font-weight: bold;
     margin-left: 60%;
 }
+
+.Ratings-btn:hover {
+    cursor: pointer;
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid #ffffff;
+    transition: 1s ease;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+}
+
+/*<-----------about us---------->*/
 
 .about {
     width: 100%;
@@ -66,6 +96,8 @@ html {
     justify-content: space-around;
 }
 
+
+/*<-----------for opening hours---------->*/
 
 .openingHours {
     width: 100%;
@@ -107,8 +139,16 @@ html {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+.table span {
+    color: red;
+    font-weight: bold;
+    margin-left: 10%;
+    font-size: 15px;
+}
 
-.reviews {
+
+/*<-----------for ratings title---------->*/
+.ratings {
     width: 100%;
     margin-top: 7%;
     margin-bottom: 5%;
@@ -116,13 +156,14 @@ html {
     text-align: center;
 }
 
-.rev-title {
+.rate-title {
     color: #FFFFFF;
     font-size: 36px;
     font-weight: 400px;
 }
 
 
+/*<-----------for ratings---------->*/
 
 .container-styles {
     width: 100%;
@@ -134,7 +175,7 @@ html {
 
 .containter-rate {
     position: relative;
-    width: 400px;
+    width: 500px;
     background: #ffffff;
     padding: 10px 30px;
     border: 1px solid #ffffff;
@@ -143,6 +184,9 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-rate .post{
@@ -156,11 +200,11 @@ html {
 }
 
 .container-rate .edit{
-    position: absolute;
-    right: 10px;
-    top: 5px;
-    font-size: 50px;
-    color: #ac0000;
+    position: relative;
+    left: 115px;
+    bottom: 60px;
+    font-size: 12px;
+    color: #ffffff;
     font-weight: 500;
     cursor: pointer;
   }
@@ -249,7 +293,7 @@ form header {
 form .textarea {
     height: 100px;
     width: 300px;
-    margin-left: 39%;
+    margin: auto;
     overflow: hidden;
 }
 

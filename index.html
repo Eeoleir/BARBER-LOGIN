@@ -33,16 +33,20 @@
 
           <div class = "nav-links">
               <ul>
-                  <li> <a class="current" href="index.html">Home</a></li>
+                  <li> <a href="index.html" class="current">Home</a></li>
                   <li> <a href="ABOUT.html">About Us</a></li>
                   <li> <a href="SERVICES.html">Services</a></li>
                   <li> <a href="CONTACT.html">Contacts</a></li>
               </ul>
           </div>
 
-          <div class="book">
-            <a class="book-btn" href="https://www.facebook.com/khen.paler.3" target="_blank">Book Now</a>
-        </div>
+          <div class="dropdown-menu">
+            <button class="menu-btn">Inquire</button>
+                <div class="menu-content">
+                <a class="links-hidden fa-brands fa-facebook" href="https://web.facebook.com/khenpro123"> Facebook</a>
+                <a class="links-hidden fa-brands fa-instagram" href="https://www.instagram.com/k_e_vo/"> Instagram</a>
+                <a class="links-hidden fa-brands fa-github" href="https://github.com/Khenpaler"> Github</a>
+          </div>
       </nav>
   </section>
 
@@ -65,6 +69,21 @@
     </div>
   </section>
 
+    <script>
+        const links = document.querySelectorAll('a');
+
+    links.forEach(link => {
+    link.addEventListener('click', e => {
+        e.preventDefault();
+        const href = link.getAttribute('href');
+        document.body.classList.add('fade-out');
+        setTimeout(() => {
+        window.location.href = href;
+        }, 500);
+    });
+    });
+
+    </script>
 
 </body>
 </html>

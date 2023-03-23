@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
 
+/*<-----------Settings for all---------->*/
 *{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+body.fade-out {
+    opacity: 0;
+}
+/*<-----------for left side information---------->*/
 .info {
     margin-left: 1%;
     margin-top: 10%;
@@ -34,18 +43,29 @@
     line-height: 24px;
 }
 
+/*<-----------for left side buttons---------->*/
 .bookNOW-btn {
     border-radius: 5px;
     text-decoration: none;
     letter-spacing: .2em;
-    color: #000000;
+    color: #FFFFFF;
     padding: 12px 24px;
     position: absolute;
-    background: #FBB034;
+    background: transparent;
+    border: 1px solid #fff;
     cursor: pointer;
     font-weight: bold;
     margin-left: 7%;
     margin-top: 3%;
+}
+
+.bookNOW-btn:hover {
+    cursor: pointer;
+    color: black;
+    background: #FBB034;
+    border: 1px solid #ffffff;
+    transition: 1s ease;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
 }
 
 .allServices-btn {
@@ -63,13 +83,23 @@
     margin-top: 3%;
 }
 
+.allServices-btn:hover {
+    cursor: pointer;
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid #ffffff;
+    transition: 1s ease;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+}
 
+/*<-----------for right side hovering picture---------->*/
 .barberPICTURE {
     width: 30%;
     height: 50%;
     position: absolute;
     right: 80px;
     bottom: 0;
+    z-index: 2;
 }
 
 .barberPICTURE img {
