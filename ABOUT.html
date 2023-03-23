@@ -167,12 +167,11 @@
       }
     </script>
     </section>
-  
     <script>
       const links = document.querySelectorAll('a');
-
-  links.forEach(link => {
-  link.addEventListener('click', e => {
+  
+    links.forEach(link => {
+    link.addEventListener('click', e => {
       e.preventDefault();
       const href = link.getAttribute('href');
       document.body.classList.add('fade-out');
@@ -182,6 +181,5 @@
   });
   });
 
-  </script>
 </body>
 </html>
