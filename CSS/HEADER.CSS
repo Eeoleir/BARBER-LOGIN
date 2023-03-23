@@ -98,7 +98,7 @@ nav {
 
  .links-hidden{
     display: block;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     margin-left: -10%;
  }
 
@@ -107,6 +107,7 @@ nav {
  }
  .links-hidden:hover,.links:hover {
     color: rgba(238, 163, 0, 0.918);
+    
  }
  .dropdown-menu:hover .menu-content {
     display: block;
@@ -114,4 +115,6 @@ nav {
  .dropdown-menu:hover .menu-btn {
     background-color: #FBB034;
     box-shadow: 0 5px 20px rgba(255, 255, 255, 0.9);
+    color: black;
+    transition: .5s;
  }
