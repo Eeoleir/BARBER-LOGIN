@@ -171,7 +171,7 @@ body.fade-out {
     margin-bottom: 30%;
     align-items: center;
     text-align: center;
-    overflow: hidden;
+     overflow: hidden;
 }
 
 .containter-rate {
@@ -232,7 +232,7 @@ body.fade-out {
 
 .star-widget label {
     display: inline-block;
-    left: -41vw;
+    left: -42%;
 }
 
 .star-widget input {
@@ -242,6 +242,7 @@ body.fade-out {
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label {
     color: #fd4;
+    
 }
 
 input:checked ~ label {
