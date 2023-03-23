@@ -9,6 +9,7 @@ body {
     background-size: cover;
     
 }
+
 /* HEADER */
 nav {
     display: flex;
@@ -23,7 +24,6 @@ nav {
     text-align: center;
     margin-left: -5%;
 }
-
 .nav-links ul li {
     margin: 28px 40px ;
     display: inline-block;
@@ -36,7 +36,20 @@ nav {
     text-decoration: none;
     font-size: 18px;
 }
-.contact{
+.nav-links ul li a:hover {
+    color: #FBB034;
+    box-shadow: 0 0 10x white;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.nav-links ul li a.current {
+    opacity: 1;
+    cursor: pointer;
+    color: #FBB034;
+    transition: 2s ease;
+}
+.book{
     margin-right: 5%;
 }
 
@@ -45,11 +58,18 @@ nav {
     text-decoration: none;
     font-family: IBM Plex Mono;
     letter-spacing: .2em;
-    color: #000000;
+    color: #FFFFFF;
     border: 1px solid #fff;
     padding: 12px 24px;
     position: relative;
-    background: #FBB034;
+    background: transparent;
     cursor: pointer;
     font-weight: bold;
 }
+.book-btn:hover {
+    color: black;
+    border: 1px solid #876563;
+    background: #FBB034;
+    transition: 1s;
+}
+

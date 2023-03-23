@@ -15,12 +15,12 @@
 /* contact with map section */
 .contact-map{
     width: 100%;
-    margin-top: 7%;
+    margin-top: 3%;
     align-items: center;
     text-align: center;
 }
 .contact-map h3{
-    color: #9C9C9C;
+    color: #FFFFFF;
     font-family: Poppins;
     font-size: 36px;
     font-weight: 400px;
@@ -40,7 +40,7 @@
 /* LEFT SIDE OF MY CONTACT INFORMATION */
 .left{
     flex-basis: 50%;
-    margin: 2% 0 0 15%;
+    margin: 2% 0 0 14%;
 
 }
 .left div{
@@ -66,7 +66,7 @@
 /* RIGHT SIDE OF MY CONTACT INFORMATION */
 .right{
     flex-basis: 50%;
-    margin: 0 20% 10% 0;
+    margin: 0 17% 3% 0;
 }
 .right input, .right textarea{
     width: 100%;
@@ -75,6 +75,6 @@
     border: 1px solid #ccc;
 }
 .right button{
-    margin-left: 17px;
+    margin: 5% 0 0 3%;
 }
 

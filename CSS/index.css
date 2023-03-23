@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info {
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.info .information {
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.information h1 {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.information h3 {
+    font-size: 18px;
+    color: #9A9A9A;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.information h4 {
+    font-size: 15px;
+    color: #FBB034;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.bookNOW-btn {
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: .2em;
+    color: #000000;
+    padding: 12px 24px;
+    position: absolute;
+    background: #FBB034;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.allServices-btn {
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: .2em;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    position: absolute;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+
+
+.barberPICTURE {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+
+.barberPICTURE img {
+    position: absolute;
+    height: 140%;
+    left: 45%;
+    transform: translate(-50%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.barberPICTURE .barberPIC:hover .barber {
+    left: 53%;
+}
+
