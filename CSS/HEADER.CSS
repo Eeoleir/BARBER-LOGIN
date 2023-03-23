@@ -106,8 +106,7 @@ nav {
     display: inline-block;
  }
  .links-hidden:hover,.links:hover {
-    background-color: rgba(238, 163, 0, 0.918);
-    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+    color: rgba(238, 163, 0, 0.918);
  }
  .dropdown-menu:hover .menu-content {
     display: block;
