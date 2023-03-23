@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-}git
+}
 html {
     scroll-behavior: smooth;
 }
@@ -171,6 +171,7 @@ body.fade-out {
     margin-bottom: 30%;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .containter-rate {
@@ -187,6 +188,7 @@ body.fade-out {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container-rate .post{
@@ -225,6 +227,7 @@ body.fade-out {
     position: relative;
     transition: all 0.2s ease;
     margin: auto;
+    
 }
 
 .star-widget label {
