@@ -1,7 +1,9 @@
 PAIR ACTIVITY
 
 PROGRAMMERS: ASILO, KENT BRYAN V.
+
              & 
+
              PALER, KHEN HAROLD P.
 
 COURSE: BSIT
