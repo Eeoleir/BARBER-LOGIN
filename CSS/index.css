@@ -61,7 +61,7 @@
     box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
 }
 
-.allServices-btn {
+.gallery-btn {
     border-radius: 5px;
     text-decoration: none;
     letter-spacing: .2em;
@@ -76,7 +76,7 @@
     margin-top: 3%;
 }
 
-.allServices-btn:hover {
+.gallery-btn:hover {
     cursor: pointer;
     color: black;
     background: #FFFFFF;

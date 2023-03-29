@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONTS IN MY SITE -->
+        <link rel="preconnect " href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="CSS/gallery.css">
+        <link rel="stylesheet" href="CSS/index.css">
+
+        <!-- ICONS IN MY SITE -->
+        <script src="https://kit.fontawesome.com/0084cc2fcc.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <title>Gallery</title>
+    </head>
+
+
+    <body>
+        <h2>Khen & Kent's Barber Shop Gallery</h2>
+        <div class="Gallery">
+            <img src="images/1.jpg" onclick="FullView(this.src)"/>
+            <img src="images/2.jpg" onclick="FullView(this.src)"/>
+            <img src="images/3.jpg" onclick="FullView(this.src)"/>
+            <img src="images/4.jpg" onclick="FullView(this.src)"/>
+            <img src="images/5.jpg" onclick="FullView(this.src)"/>
+            <img src="images/6.jpg" onclick="FullView(this.src)"/>
+            <img src="images/7.jpg" onclick="FullView(this.src)"/>
+            <img src="images/8.jpg" onclick="FullView(this.src)"/>
+            <img src="images/9.jpg" onclick="FullView(this.src)"/>
+            <img src="images/10.jpg" onclick="FullView(this.src)"/>
+            <img src="images/11.jpg" onclick="FullView(this.src)"/>
+            <img src="images/12.jpg" onclick="FullView(this.src)"/>
+        </div>
+
+        <div id="FullImageView">
+            <img id="FullImage"/>
+            <span id="CloseButton" onclick="CloseFullView()">&times;</span>
+        </div>
+
+        <div class="buttons">
+            <a class="bookNOW-btn" href="index.html">Home</a>
+        </div>
+
+        <script type="text/javascript">
+            function FullView(ImgLink) {
+                document.getElementById("FullImage").src = ImgLink;
+                document.getElementById("FullImageView").style.display = "block";
+            }
+            function CloseFullView() {
+                document.getElementById("FullImageView").style.display = "none";
+            }
+        </script>
+
+    </body>
+</html>
