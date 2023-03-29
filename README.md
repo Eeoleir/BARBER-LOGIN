@@ -10,4 +10,4 @@ COURSE: BSIT
 
 SECTION: IT2R5
 
-WEBSITE: https://business-barber-01p.pages.dev/
+WEBSITE: https://asilo-paler-businessbarber.pages.dev/
