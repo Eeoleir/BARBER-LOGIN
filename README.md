@@ -10,4 +10,4 @@ COURSE: BSIT
 
 SECTION: IT2R5
 
-WEBSITE: https://business-barber.pages.dev/
+WEBSITE: https://business-barber-01p.pages.dev/
