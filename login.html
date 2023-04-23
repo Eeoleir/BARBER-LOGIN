@@ -26,12 +26,12 @@
             <form action="">
                 <h2>Login</h2>
                 <div class="input-group">
-                    <input type="text" id="username" name="username" required>
-                    <label for="">Username</label>
+                    <input type="text" id="login-username" name="login-username" required>
+                    <label for="login-username">Username</label>
                 </div>
                 <div class="input-group">
-                    <input type="password" id="password" name="password" required>
-                    <label for="">Password</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                    <label for="login-password">Password</label>
                 </div>
                 <div class="remember">
                     <label><input type="checkbox"> Remember me</label>
@@ -43,25 +43,25 @@
             </form>
         </div>
 
-        <div class="form-wrapper sign-up">
+        <div class="form-wrapper sign-up" id="registration-form">
             <form action="">
                 <h2>Sign Up</h2>
                 <div class="input-group">
-                    <input type="text" required>
-                    <label for="">Username</label>
+                    <input type="text" id="reg-username" name="reg-username" required>
+                    <label for="reg-username">Username</label>
                 </div>
                 <div class="input-group">
-                    <input type="email" required>
-                    <label for="">Email</label>
+                    <input type="email" id="reg-email" name="reg-email" required>
+                    <label for="reg-email">Email</label>
                 </div>
                 <div class="input-group">
-                    <input type="password" required>
-                    <label for="">Password</label>
+                    <input type="password" id="reg-password" name="reg-password" required>
+                    <label for="reg-password">Password</label>
                 </div>
                 <div class="remember">
                     <label><input type="checkbox"> I agree to the terms & conditions</label>
                 </div>
-                <button type="submit">Sign Up</button>
+                <button type="submit" id="register-button">Sign Up</button>
                 <div class="signUp-link">
                     <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
                 </div>
