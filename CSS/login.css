@@ -144,3 +144,19 @@ button:hover {
 .signUp-link p a:hover{
     text-decoration: underline;
 }
+
+.input-group input[type="password"] {
+    padding-right: 40px;
+    }
+
+.input-group .fa-solid{
+position: absolute;
+top: 50%;
+right: 5px;
+transform: translateY(-50%);
+cursor: pointer;
+font-weight: 900;
+font-size: 18px;
+color: #fff;
+}
+
