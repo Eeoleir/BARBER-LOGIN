@@ -1,11 +1,15 @@
 const signInBtnLink = document.querySelector('.signInBtn-link');
 const signUpBtnLink = document.querySelector('.signUpBtn-link');
+const signUpBTN = document.querySelector('.signUp-BTN');
+
 
 const wrapper = document.querySelector('.wrapper');
 
 signUpBtnLink.addEventListener('click', () => {wrapper.classList.toggle('active');});
 
 signInBtnLink.addEventListener('click', () => {wrapper.classList.toggle('active');});
+
+signUpBTN.addEventListener('click', () => {wrapper.classList.toggle('active');});
 
 // show and unshow password
 
