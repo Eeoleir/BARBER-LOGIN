@@ -30,6 +30,7 @@ loginForm.addEventListener("submit", function(event) {
 
   const username = document.getElementById("login-username").value;
   const password = document.getElementById("login-password").value;
+  
 
   // Here you can add your authentication logic, such as sending a request to a server to validate the user's credentials
   // For this example, we'll just compare the entered username and password with the values stored in local storage
@@ -41,5 +42,20 @@ loginForm.addEventListener("submit", function(event) {
     window.location.href = "index.html"; // Redirect to success page
   } else {
     alert("Invalid username or password.");
+  }
+});
+// show and unshow password
+const eyeIcon1 = document.getElementById("eye-icon1");
+const passwordInput1 = document.getElementById("login-password");
+
+eyeIcon1.addEventListener("click", () => {
+  if (passwordInput1.type === "password") {
+    passwordInput1.type = "text";
+    eyeIcon1.classList.remove("fa-eye-slash");
+    eyeIcon1.classList.add("fa-eye");
+  } else {
+    passwordInput1.type = "password";
+    eyeIcon1.classList.remove("fa-eye");
+    eyeIcon1.classList.add("fa-eye-slash");
   }
 });
