@@ -9,6 +9,7 @@ body {
     background-size: cover;
 }
 
+
 /* HEADER */
 nav {
     width: 100%;
@@ -126,7 +127,7 @@ nav {
     z-index: 3;
  }
 
- .login-btn {
+ .login-button {
     border-radius: 10px;
     text-decoration: none;
     letter-spacing: .2em;
@@ -141,7 +142,8 @@ nav {
     font-weight: bold;
 }
 
-.login-btn:hover {
+
+.login-button:hover {
     cursor: pointer;
     color: black;
     background: #FBB034;
