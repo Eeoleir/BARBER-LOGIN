@@ -15,6 +15,11 @@ regForm.addEventListener("submit", function(event) {
   localStorage.setItem("password", password);
 
   alert("Registration successful!");
+
+  // Clear the form
+  document.getElementById("reg-username").value = "";
+  document.getElementById("reg-email").value = "";
+  document.getElementById("reg-password").value = "";
 });
 
 // Login Form
