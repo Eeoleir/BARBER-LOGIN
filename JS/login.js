@@ -38,7 +38,7 @@ loginForm.addEventListener("submit", function(event) {
 
   if (username === storedUsername && password === storedPassword) {
     alert("Login successful!");
-    window.location.href = "index.html"; // Redirect to success page
+    window.location.href = "index.html"; // Redirect to landing page
   } else {
     alert("Invalid username or password.");
   }
