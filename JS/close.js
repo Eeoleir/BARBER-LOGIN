@@ -1,8 +1,8 @@
 // Select the login button element
-const loginButton = document.querySelector('.close-button');
+const closebutton = document.querySelector('.close-button');
 
 // Add a click event listener to the login button element
-loginButton.addEventListener('click', function(event) {
+closebutton.addEventListener('click', function(event) {
   // Prevent the default behavior of the link
   event.preventDefault();
 
