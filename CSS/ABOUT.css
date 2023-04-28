@@ -5,6 +5,8 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 html {
     scroll-behavior: smooth;
@@ -183,8 +185,8 @@ html {
 
 .containter-rate {
     position: relative;
-    width: 500px;
-    background: #ffffff;
+    width: 100%;
+    background: GREEN;
     padding: 10px 30px;
     border: 1px solid #ffffff;
     border-radius: 5px;
@@ -192,7 +194,6 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    display: flex;
     justify-content: center;
     align-items: center;
     
@@ -206,6 +207,7 @@ html {
     font-size: 25px;
     color: #ffffff;
     font-weight: 500;
+
 }
 
 .container-rate .edit{
@@ -224,6 +226,7 @@ html {
 
 .containter-rate .star-widget input {
      display: none;
+
 }
 
 .star-widget label {
@@ -239,7 +242,7 @@ html {
 
 .star-widget label {
     display: inline-block;
-    left: -42%;
+    left: -44%;
 }
 
 .star-widget input {
@@ -263,23 +266,23 @@ input#rate-5:checked ~ label {
 
 #rate-1:checked ~ form header:before {
     content: "I just hate it 😠";
-    margin-left: 16%;
+    margin-left: 12%;
 }
   #rate-2:checked ~ form header:before {
     content: "I don't like it 😒";
-    margin-left: 16%;
+    margin-left: 12%;
 }
   #rate-3:checked ~ form header:before {
     content: "It is awesome 😄";
-    margin-left: 16%;
+    margin-left: 12%;
 }
   #rate-4:checked ~ form header:before {
     content: "I just like it 🤩";
-    margin-left: 16%;
+    margin-left: 12%;
 }
   #rate-5:checked ~ form header:before {
     content: "I just love it 😍";
-    margin-left: 16%;
+    margin-left: 12%;
 }
 
 .container-rate form {

@@ -4,7 +4,10 @@
 *{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 
 -----for left side information---------->*/
 .info {
@@ -37,6 +40,7 @@
 }
 
 /*<-----------for left side buttons---------->*/
+
 .bookNOW-btn {
     border-radius: 5px;
     text-decoration: none;
@@ -92,9 +96,7 @@
     position: absolute;
     right: 80px;
     bottom: 0;
-    z-index: 2;
-    
-
+    z-index: 1;
 }
 
 .barberPICTURE img {
@@ -107,6 +109,6 @@
 }
 
 .barberPICTURE .barberPIC:hover .barber {
-    left: 52%;
+    left: 50%;
 }
 

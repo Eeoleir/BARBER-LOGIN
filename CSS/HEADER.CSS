@@ -9,6 +9,7 @@ body {
     background-size: cover;
 }
 
+
 /* HEADER */
 nav {
     width: 100%;
@@ -25,6 +26,7 @@ nav {
     text-align: center;
     margin-left: -5%;
 }
+
 
 .nav-links ul li {
     margin: 28px 40px ;
@@ -118,3 +120,34 @@ nav {
     color: black;
     transition: .5s;
  }
+
+ .login-menu {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+ }
+
+ .login-button {
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: .2em;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    position: relative;
+    background: transparent;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+
+.login-button:hover {
+    cursor: pointer;
+    color: black;
+    background: #FBB034;
+    border: 1px solid #ffffff;
+    transition: 1s ease;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+}
