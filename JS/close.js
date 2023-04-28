@@ -11,7 +11,7 @@ closebutton.addEventListener('click', function(event) {
     duration: 0.5,
     opacity: 0,
     onComplete: function() {
-      // Once the fade-out animation is complete, redirect to the login page
+      // Once the fade-out animation is complete, redirect to the home page
       window.location.href = 'index.html';
     }
   });

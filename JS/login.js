@@ -8,8 +8,8 @@ regForm.addEventListener("submit", function(event) {
   const email = document.getElementById("reg-email").value;
   const password = document.getElementById("reg-password").value;
 
-  // Here you can add your registration logic, such as sending a request to a server to create a new user account
-  // For this example, we'll just store the username and password in local storage
+  // Here we add our registration logic, such as sending a request to a server to create a new user account
+  // we'll just store the username and password in local storage
   localStorage.setItem("username", username);
   localStorage.setItem("email", email);
   localStorage.setItem("password", password);
@@ -32,8 +32,8 @@ loginForm.addEventListener("submit", function(event) {
   const password = document.getElementById("login-password").value;
   
 
-  // Here you can add your authentication logic, such as sending a request to a server to validate the user's credentials
-  // For this example, we'll just compare the entered username and password with the values stored in local storage
+  // Here we add our authentication logic, such as sending a request to a server to validate the user's credentials
+  // compare the entered username and password with the values stored in local storage
   const storedUsername = localStorage.getItem("username");
   const storedPassword = localStorage.getItem("password");
 
@@ -44,6 +44,7 @@ loginForm.addEventListener("submit", function(event) {
     alert("Invalid username or password.");
   }
 });
+
 // show and unshow password
 const eyeIcon1 = document.getElementById("eye-icon1");
 const passwordInput1 = document.getElementById("login-password");
