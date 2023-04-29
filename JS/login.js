@@ -37,7 +37,11 @@ loginForm.addEventListener("submit", function(event) {
   const storedUsername = localStorage.getItem("username");
   const storedPassword = localStorage.getItem("password");
 
+<<<<<<< HEAD
   if (username === storedUsername && password === storedPassword || username === "admin" || password === "1234") {
+=======
+  if (username === storedUsername && password === storedPassword) {
+>>>>>>> 1b847c118cf451843175ba05dac1827e1d1a0317
     alert("Login successful!");
     window.location.href = "index(in).html"; // Redirect to success page
   } else {
@@ -45,7 +49,10 @@ loginForm.addEventListener("submit", function(event) {
   }
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1b847c118cf451843175ba05dac1827e1d1a0317
 // show and unshow password
 const eyeIcon1 = document.getElementById("eye-icon1");
 const passwordInput1 = document.getElementById("login-password");
