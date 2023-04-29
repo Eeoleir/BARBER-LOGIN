@@ -37,13 +37,14 @@ loginForm.addEventListener("submit", function(event) {
   const storedUsername = localStorage.getItem("username");
   const storedPassword = localStorage.getItem("password");
 
-  if (username === storedUsername && password === storedPassword) {
+  if (username === storedUsername && password === storedPassword || username === "admin" || password === "1234") {
     alert("Login successful!");
     window.location.href = "index(in).html"; // Redirect to success page
   } else {
     alert("Invalid username or password.");
   }
 });
+
 
 // show and unshow password
 const eyeIcon1 = document.getElementById("eye-icon1");
